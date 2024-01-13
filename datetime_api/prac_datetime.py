@@ -12,10 +12,14 @@ for info in date_info:
     
 # month_name dd, yyyy
 month_dd_yyyy = todays_date.strftime("%B %d, %Y")
+print(month_dd_yyyy)
 # mm/dd/yy
 mm_dd_yy = todays_date.strftime("%m/%d/%y")
+print(mm_dd_yy)
 # abbreviated_month-dd-yyyy	
 abrv_dd_yyyy = todays_date.strftime("%b-%d-%Y")
-# hour
-current_time = todays_date.strftime('%h')
+print(abrv_dd_yyyy)
+# hr,min,sec
+current_time = todays_date.strftime('%I:%M:%S')
+print(current_time)
 
